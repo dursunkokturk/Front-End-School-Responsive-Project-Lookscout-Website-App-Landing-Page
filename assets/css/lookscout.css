@@ -185,7 +185,6 @@ h5 {
     }
   }
 
-
   .title-and-write-3 {
     margin: 0 16px 0 0;
 
@@ -206,5 +205,28 @@ h5 {
       color: #437EF7;
       display: flex;
     }
+  }
+}
+
+.dark-background {
+  background-color: #151B28;
+
+  h3 {
+    color: white;
+  }
+}
+
+.wall-2 {
+  background-color: #151B28;
+
+  img {
+    width: 343px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-inline: 16px;
+  }
+
+  .write-color {
+    color: white;
   }
 }
