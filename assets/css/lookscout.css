@@ -28,16 +28,19 @@ body {
 .avatar {
   background-color: #648EF7;
   margin-bottom: 32px;
-  
+
   img {
     width: 343px;
-  };
+  }
+
+  ;
 }
 
 .title-and-write {
   margin-bottom: 32px;
-  
-  h1,h3 {
+
+  h1,
+  h3 {
     width: 343px;
     margin-inline: 16px;
   }
@@ -93,7 +96,8 @@ h5 {
 .message {
   margin-bottom: 32px;
 
-  h2,h4 {
+  h2,
+  h4 {
     text-align: center;
     margin-inline: 16px;
   }
@@ -174,7 +178,7 @@ h5 {
 
   .icon {
     margin: 0 16px 0 16px;
-    
+
     img {
       width: 48px;
       height: 48px;
@@ -184,23 +188,23 @@ h5 {
 
   .title-and-write-3 {
     margin: 0 16px 0 0;
-  }
 
-  h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
+    h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
 
-  h4 {
-    color: #5F6D7E;
-    margin-bottom: 8px;
-  }
+    h4 {
+      color: #5F6D7E;
+      margin-bottom: 8px;
+    }
 
-  a {
-    font-size: 15px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #437EF7;
-    display: flex;
+    a {
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #437EF7;
+      display: flex;
+    }
   }
 }
