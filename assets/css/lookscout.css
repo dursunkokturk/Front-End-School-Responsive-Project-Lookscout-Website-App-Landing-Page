@@ -106,6 +106,10 @@ h5 {
 .icons-titles-writes {
   margin-inline: 18px;
 
+  img {
+    margin-bottom: 16px;
+  }
+
   h3,h4,a {
     font-family: Inter;
   }
@@ -115,6 +119,7 @@ h5 {
     font-weight: 600;
     line-height: 28px;
     letter-spacing: -2%;
+    margin-bottom: 8px;
   }
 
   h4 {
@@ -122,6 +127,7 @@ h5 {
     color: #5F6D7E;
     line-height: 24px;
     letter-spacing: -0.1px;
+    margin-bottom: 16px;
   }
 
   a {
@@ -129,5 +135,10 @@ h5 {
     font-weight: 600;
     text-decoration: none;
     color: #437EF7;
+    display: flex;
+  }
+
+  .icons-right {
+    margin-left: 6px;
   }
 }
