@@ -230,3 +230,39 @@ h5 {
     color: white;
   }
 }
+
+.customer-comments {
+  text-align: center;
+  margin-inline: 16px;
+  margin-bottom: 40px;
+
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  h4 {
+    color: #5F6D7E;
+  }
+}
+
+.logo-comment-avatar-username-userinformation {
+  margin-inline: 16px;
+  
+  img {
+    margin: 0 0 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .avatar-username-userinformations {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
