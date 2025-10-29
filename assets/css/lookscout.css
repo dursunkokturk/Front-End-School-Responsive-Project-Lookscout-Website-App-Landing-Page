@@ -353,3 +353,27 @@ h5 {
     }
   }
 }
+
+.company-slogan {
+  text-align: center;
+  margin-inline: 16px;
+  margin-bottom: 32px;
+
+  h2 {
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+
+  h4 {
+    line-height: 24px;
+    color: #5F6D7E;
+  }
+}
+
+.brand-logos {
+  img {
+    margin-inline: 107px;
+    margin-bottom: 32px;
+  }
+}
