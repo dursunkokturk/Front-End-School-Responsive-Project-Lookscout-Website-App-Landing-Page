@@ -283,7 +283,7 @@ h5 {
         line-height: 22px;
         margin-bottom: 16px;
       }
-  
+
       p {
         color: #5F6D7E;
         font-size: 14px;
@@ -291,7 +291,7 @@ h5 {
         line-height: 20px;
       }
     }
-    
+
   }
 }
 
@@ -315,7 +315,7 @@ h5 {
   margin-inline: 16px;
   margin-bottom: 32px;
 
-  img  {
+  img {
     width: 343px;
     margin-bottom: 12px;
   }
@@ -373,6 +373,7 @@ h5 {
 
 .brand-logos {
   margin-bottom: 64px;
+
   img {
     margin-inline: 107px;
     margin-bottom: 32px;
@@ -397,14 +398,14 @@ h5 {
 
 .form {
   margin-bottom: 64px;
-  
+
   .text-input {
     width: 343px;
     height: 46px;
     margin-inline: 16px;
     margin-bottom: 30px;
   }
-  
+
   a {
     font-size: 15px;
     text-decoration: none;
@@ -415,12 +416,12 @@ h5 {
     margin-inline: 16px;
     margin-bottom: 30px;
   }
-  
+
   .options {
     width: 298px;
     margin-top: 32px;
     margin-left: 20px;
-    
+
     .option {
       display: flex;
       /* flex-direction: row; */
@@ -429,9 +430,59 @@ h5 {
       img {
         margin-right: 12px;
       }
+
       h4 {
         width: 180px;
       }
     }
+  }
+}
+
+.dark-background-2 {
+  background-color: #151B28;
+  margin-bottom: 24px;
+
+  img {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  h4 {
+    color: #A5ACBA;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .resources-and-products {
+    display: flex;
+    flex-direction: row;
+
+    .resources,
+    .products {
+      strong {
+        color: white;
+      }
+
+      h4 {
+        margin-bottom: 16px;
+        color: #A5ACBA;
+      }
+    }
+    .resources {
+      margin-left: 16px;
+      margin-right: 64px;
+    }
+  }
+}
+
+.notification {
+
+  h4 {
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  strong {
+    color: white;
   }
 }
