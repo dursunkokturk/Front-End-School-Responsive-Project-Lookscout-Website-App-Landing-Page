@@ -372,8 +372,70 @@ h5 {
 }
 
 .brand-logos {
+  margin-bottom: 64px;
   img {
     margin-inline: 107px;
     margin-bottom: 32px;
   }
+}
+
+.sector-information {
+  font-size: 14px;
+  line-height: 20px;
+  color: #437EF7;
+  margin-inline: 130px;
+  margin-bottom: 8px;
+}
+
+.digital-vr {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.form {
+  margin-bottom: 64px;
+  
+  .text-input {
+    width: 343px;
+    height: 46px;
+    margin-inline: 16px;
+    margin-bottom: 30px;
+  }
+  
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #437EF7;
+    border-radius: 5px;
+    padding: 13px 145px;
+    margin-inline: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .options {
+    width: 298px;
+    margin-top: 32px;
+    margin-left: 20px;
+    
+    .option {
+      display: flex;
+      /* flex-direction: row; */
+      /* margin-right: 40px; */
+
+      img {
+        margin-right: 12px;
+      }
+      h4 {
+        width: 180px;
+      }
+    }
+  }
+}
+
+.dark-background {
+  
 }
