@@ -468,6 +468,7 @@ h5 {
         color: #A5ACBA;
       }
     }
+
     .resources {
       margin-left: 16px;
       margin-right: 64px;
@@ -482,13 +483,35 @@ h5 {
     line-height: 24px;
     margin-bottom: 12px;
   }
+
   strong {
     color: white;
   }
+
   input {
     background-color: #2C3444;
   }
+
   button {
     background-color: #437EF7;
+  }
+}
+
+.footer {
+  border-top: 1px solid #2E3545;
+  background-color: #151B28;
+  /* margin-inline: 16px; */
+
+  h4 {
+    color: #A5ACBA;
+    line-height: 24px;
+    margin-left: 16px;
+    margin-bottom: 18px;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin-inline: 27px;
   }
 }
