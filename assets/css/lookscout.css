@@ -36,17 +36,15 @@ body {
   img {
     width: 343px;
   }
-
-  ;
 }
 
-.title-and-write {
+.title-and-write-1 {
+  margin-inline: 16px;
   margin-bottom: 32px;
 
   h1,
   h3 {
     width: 343px;
-    margin-inline: 16px;
   }
 
   h1 {
@@ -64,16 +62,20 @@ body {
 
 .button {
   background-color: #437EF7;
+  padding: 12px 129px;
+  margin-inline: 16px;
   margin-bottom: 32px;
+  border-radius: 5px;
 
   a {
     font-size: 15px;
     color: white;
     font-weight: 600;
-    padding: 12px 129px;
+    /* padding: 12px 129px; */
     text-decoration: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-inline: 16px;
+    border-radius: 5px;
   }
 }
 
@@ -448,12 +450,14 @@ h5 {
 
   img {
     margin-top: 32px;
+    margin-left: 16px;
     margin-bottom: 16px;
   }
 
   h4 {
     color: #A5ACBA;
     line-height: 24px;
+    margin-inline: 16px;
     margin-bottom: 24px;
   }
 
@@ -494,6 +498,7 @@ h5 {
 
   input {
     background-color: #2C3444;
+    margin-left: 16px;
   }
 
   button {
