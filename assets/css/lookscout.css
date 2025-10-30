@@ -16,7 +16,7 @@ body {
 
 .hero {
   background-color: #648EF7;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 
   .logo-company {
     width: 128px;
@@ -32,7 +32,7 @@ body {
 
 .avatar {
   background-color: #648EF7;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 
   img {
     width: 343px;
@@ -62,6 +62,7 @@ body {
     color: #B1CCFB;
     line-height: 26px;
     letter-spacing: -0.1px;
+    padding-bottom: 32px;
   }
 }
 
