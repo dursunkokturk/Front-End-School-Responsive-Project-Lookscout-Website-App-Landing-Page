@@ -419,6 +419,7 @@ h5 {
     height: 46px;
     margin-inline: 16px;
     margin-bottom: 30px;
+    padding-left: 16px;
   }
 
   a {
@@ -508,6 +509,7 @@ h5 {
   input {
     background-color: #2C3444;
     margin-left: 16px;
+    padding-left: 16px;
   }
 
   button {
