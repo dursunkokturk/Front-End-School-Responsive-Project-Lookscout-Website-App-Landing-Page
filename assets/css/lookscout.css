@@ -350,14 +350,21 @@ h5 {
       height: 40px;
     }
 
-    h5 {
-      font-size: 15px;
+    .userinformations {
+
+      h5 {
+        font-size: 15px;
+      }
+      p {
+        margin-left: 15px;
+      }
     }
 
     .date {
       font-size: 14px;
       font-weight: 500;
       color: #5F6D7E;
+      margin-left: 140px;
     }
   }
 }
