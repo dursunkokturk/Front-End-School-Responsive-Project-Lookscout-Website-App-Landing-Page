@@ -23,6 +23,7 @@ body {
     height: 32px;
     margin: 20px 171px 20px 20px;
   }
+
   .burger-menu {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -39,22 +40,26 @@ body {
 }
 
 .title-and-write-1 {
-  margin-inline: 16px;
+  background-color: #648EF7;
+  /* margin-inline: 16px; */
   margin-bottom: 32px;
 
   h1,
   h3 {
     width: 343px;
+    margin-inline: 16px;
   }
 
   h1 {
     font-weight: 600;
     line-height: 44px;
+    color: white;
     letter-spacing: -2%;
     margin-bottom: 16px;
   }
 
   h3 {
+    color: #B1CCFB;
     line-height: 26px;
     letter-spacing: -0.1px;
   }
@@ -355,6 +360,7 @@ h5 {
       h5 {
         font-size: 15px;
       }
+
       p {
         margin-left: 15px;
       }
