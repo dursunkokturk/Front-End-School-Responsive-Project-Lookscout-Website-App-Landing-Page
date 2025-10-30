@@ -485,4 +485,10 @@ h5 {
   strong {
     color: white;
   }
+  input {
+    background-color: #2C3444;
+  }
+  button {
+    background-color: #437EF7;
+  }
 }
