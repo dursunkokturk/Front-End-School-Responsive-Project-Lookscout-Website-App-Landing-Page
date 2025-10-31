@@ -14,6 +14,7 @@ body {
   width: 375px;
 }
 
+/* Mobile Start */
 .hero {
   background-color: #648EF7;
   padding-bottom: 32px;
@@ -29,6 +30,12 @@ body {
     margin-bottom: 20px;
   }
 }
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 
 .avatar {
   background-color: #648EF7;
