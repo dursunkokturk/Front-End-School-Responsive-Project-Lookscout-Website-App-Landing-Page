@@ -40,9 +40,11 @@ body {
 .avatar {
   background-color: #648EF7;
   padding-bottom: 32px;
+  width: 375px;
 
   img {
     width: 343px;
+    margin-left: 16px;
   }
 }
 
