@@ -502,6 +502,7 @@ h5 {
 }
 
 .notification {
+  padding-bottom: 32px;
 
   h4 {
     font-weight: 600;
@@ -520,6 +521,9 @@ h5 {
   }
 
   button {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
     background-color: #437EF7;
     color: white;
     padding: 12px 18px 12px 18px;
@@ -529,7 +533,7 @@ h5 {
 .footer {
   border-top: 1px solid #2E3545;
   background-color: #151B28;
-  /* margin-inline: 16px; */
+  margin-top: 16px;
 
   h4 {
     color: #A5ACBA;
