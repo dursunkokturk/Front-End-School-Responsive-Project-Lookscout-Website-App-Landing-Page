@@ -16,7 +16,7 @@ body {
 
 /* Mobile Start */
 .hero {
-  background-color: #648EF7;
+  background-color: #2663fd;
   padding-bottom: 32px;
 
   .logo-company {
@@ -38,7 +38,7 @@ body {
 
 
 .item-1 {
-  background-color: #648EF7;
+  background-color: #2663fd;
   padding-bottom: 32px;
   width: 375px;
 
@@ -49,7 +49,7 @@ body {
 }
 
 .item-2 {
-  background-color: #648EF7;
+  background-color: #2663fd;
   /* margin-inline: 16px; */
   padding-bottom: 32px;
 
@@ -98,7 +98,7 @@ body {
 } */
 
 .logos {
-  background-color: #437EF7;
+  background-color: #2663fd;
   margin-bottom: 40px;
 
   h5 {
