@@ -8,6 +8,7 @@ body {
   font-family: Inter;
 }
 
+/* Mobile Start */
 .container {
   margin: auto;
   border: 1px solid black;
@@ -276,23 +277,6 @@ body {
     }
   }
 }
-
-
-
-/* .item-8 {
-  background-color: #151B28;
-
-  img {
-    width: 343px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-inline: 16px;
-  }
-
-  .write-color {
-    color: white;
-  }
-} */
 
 .customer-comments {
   text-align: center;
@@ -607,3 +591,5 @@ body {
     margin-inline: 27px;
   }
 }
+
+/* Mobile End */
