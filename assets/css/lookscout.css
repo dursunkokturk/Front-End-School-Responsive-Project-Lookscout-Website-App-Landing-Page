@@ -51,6 +51,7 @@ body {
     background-color: #2663fd;
     /* margin-inline: 16px; */
     padding-bottom: 32px;
+    margin-bottom: 32px;
 
     h1,
     h3 {
@@ -546,7 +547,14 @@ body {
     margin: auto;
     border: 1px solid black;
     width: 768px;
+
+    .hero {
+      .logo-company {
+        margin-right: 581px;
+      }
+    }
   }
+  
   
 }
 
