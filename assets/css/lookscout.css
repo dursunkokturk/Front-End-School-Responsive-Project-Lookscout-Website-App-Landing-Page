@@ -43,7 +43,7 @@ body {
 
   .supercharge {
     background-color: #2663fd;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 
     h1,
     h3 {
@@ -83,6 +83,14 @@ body {
   .logos {
     background-color: #2663fd;
     margin-bottom: 40px;
+
+    h5 {
+      font-size: 14px;
+      color: white;
+      line-height: 20px;
+      font-weight: 500;
+      margin-left: 20px;
+    }
 
     img {
       width: 112px;
@@ -628,6 +636,42 @@ body {
     .hero {
       .logo-company {
         margin-right: 581px;
+      }
+    }
+
+    .photo {
+      background-color: #2663fd;
+      width: 768px;
+
+      img {
+        width: 448px;
+        height: 560px;
+        margin-inline: 160px;
+      }
+    }
+
+    .supercharge {
+      padding-bottom: 40px;
+
+      h1,
+      h3 {
+        width: 672px;
+        margin-inline: 48px;
+      }
+
+      h1 {
+        font-size: 52px;
+        line-height: 60px;
+
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      a {
+        padding: 12px 50px;
+        margin-left: 45px;
       }
     }
   }
