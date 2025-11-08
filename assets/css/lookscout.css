@@ -676,9 +676,11 @@ body {
     }
 
     .logos {
-
       padding-left: 30px;
+    }
 
+    .grid-container-1 {
+      grid-template-columns: repeat(2,1fr);
     }
   }
 }
