@@ -615,9 +615,24 @@ body {
   }
 
 }
+
 /* Mobile End */
 
 /* Tablet Start */
+@media (width > 768px) {
+  .container {
+    margin: auto;
+    border: 1px solid black;
+    width: 768px;
+
+    .hero {
+      .logo-company {
+        margin-right: 581px;
+      }
+    }
+  }
+}
+
 /* @media (width > 768px) {
   .container {
     margin: auto;
