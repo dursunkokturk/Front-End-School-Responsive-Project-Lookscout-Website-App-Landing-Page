@@ -721,6 +721,11 @@ body {
         }
       }
     }
+
+    .item-4,
+    .item-5 {
+      margin-inline: 32px;
+    }
   }
 }
 
