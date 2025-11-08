@@ -754,6 +754,7 @@ body {
         .text-input {
           width: 415px;
           margin-right: -15px;
+          margin-bottom: 32px;
         }
 
         a {
