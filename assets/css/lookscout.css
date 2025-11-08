@@ -84,7 +84,6 @@ body {
       color: white;
       font-weight: 600;
       text-decoration: none;
-      margin-inline: 16px;
       border-radius: 5px;
     }
 
@@ -558,11 +557,49 @@ body {
       .item-1 {
         background-color: #2663fd;
         width: 768px;
-        
+
         img {
           width: 448px;
           height: 560px;
           margin-inline: 160px;
+        }
+      }
+
+      .item-2 {
+
+        h1,
+        h3 {
+          width: 672px;
+          margin-inline: 48px;
+        }
+
+        h1 {
+          font-size: 52px;
+          line-height: 60px;
+
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        a {
+          padding: 12px 50px;
+          margin-left: 45px;
+        }
+
+        h5 {
+          margin-left: 45px;
+        }
+
+        .logos {
+          margin-left: 30px;
+          margin-bottom: 48px;
+        }
+
+        img {
+          width: 112px;
+          margin: 10px 10px 10px 10px;
         }
       }
     }
