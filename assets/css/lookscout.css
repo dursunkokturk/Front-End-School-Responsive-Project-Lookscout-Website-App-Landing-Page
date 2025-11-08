@@ -702,6 +702,25 @@ body {
         }
       }
     }
+
+    .icon-title-write-icon {
+
+      .wall-photo-2 {
+        img {
+          margin-inline: 180px;
+        }
+      }
+  
+      .icon-title-write-icon {
+        .item-3 {
+          .title-and-write-3 {
+            h4 {
+              width: 650px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
