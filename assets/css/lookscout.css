@@ -682,6 +682,10 @@ body {
     .grid-container-1 {
       grid-template-columns: repeat(2,1fr);
     }
+
+    .redefining {
+      margin-inline: 32px;
+    }
   }
 }
 
