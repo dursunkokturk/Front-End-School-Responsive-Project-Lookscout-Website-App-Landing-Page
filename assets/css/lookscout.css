@@ -553,9 +553,20 @@ body {
         margin-right: 581px;
       }
     }
+
+    .boxes {
+      .item-1 {
+        background-color: #2663fd;
+        width: 768px;
+        
+        img {
+          width: 448px;
+          height: 560px;
+          margin-inline: 160px;
+        }
+      }
+    }
   }
-  
-  
 }
 
 /* Tablet End */
