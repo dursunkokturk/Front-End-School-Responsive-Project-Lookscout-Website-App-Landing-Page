@@ -737,6 +737,70 @@ body {
       display: none;
     }
 
+    .item-9 {
+      margin-inline: 32px;
+
+      h5 {
+        text-align: center;
+      }
+      .form {
+        
+        .input-and-button {
+          display: flex;
+          flex-direction: row;
+          margin-inline: 60px;
+        }
+        
+        .text-input {
+          width: 415px;
+          margin-right: -15px;
+        }
+
+        a {
+          padding: 12px 30px 12px 30px;
+        }
+
+        .options {
+          display: flex;
+          /* flex-direction: row; */
+          width: 700px;
+          margin-inline: 80px;
+
+          .option-1,
+          .option-2,
+          .option-3 {
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+
+            img {
+              width: 20px;
+              height: 20px;
+              margin-right: 12px;
+            }
+          }
+          .option-1 {
+            
+            h4 {
+              width: 150px;
+            }
+          }
+          .option-2 {
+            margin-right: -42px;
+
+            h4 {
+              width: 110px;
+            }
+          }
+          .option-3 {
+
+            h4 {
+              width: 130px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
