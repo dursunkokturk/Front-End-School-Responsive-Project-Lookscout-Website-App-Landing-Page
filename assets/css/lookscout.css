@@ -686,6 +686,12 @@ body {
     .redefining {
       margin-inline: 32px;
     }
+
+    .wall-photo-1 {
+      img {
+        margin-inline: 180px;
+      }
+    }
   }
 }
 
