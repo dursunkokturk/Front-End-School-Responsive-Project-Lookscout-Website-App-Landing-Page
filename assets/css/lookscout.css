@@ -762,7 +762,6 @@ body {
 
         .options {
           display: flex;
-          /* flex-direction: row; */
           width: 700px;
           margin-inline: 80px;
 
