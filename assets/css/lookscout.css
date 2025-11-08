@@ -692,6 +692,16 @@ body {
         margin-inline: 180px;
       }
     }
+
+    .grid-container-2 {
+      .item-2 {
+        .title-and-write-3 {
+          h4 {
+            width: 650px;
+          }
+        }
+      }
+    }
   }
 }
 
