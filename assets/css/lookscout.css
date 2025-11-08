@@ -603,6 +603,19 @@ body {
           margin: 10px 10px 10px 10px;
         }
       }
+
+      .item-3 {
+        margin-inline: 32px;
+
+        h2 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+        h4 {
+          line-height: 24px;
+        }
+      }
     }
   }
 }
