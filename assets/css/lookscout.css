@@ -391,6 +391,7 @@ body {
   }
 
   .item-6 {
+    display: block;
     margin-inline: 16px;
     margin-bottom: 32px;
 
@@ -680,7 +681,7 @@ body {
     }
 
     .grid-container-1 {
-      grid-template-columns: repeat(2,1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .redefining {
@@ -710,7 +711,7 @@ body {
           margin-inline: 180px;
         }
       }
-  
+
       .icon-title-write-icon {
         .item-3 {
           .title-and-write-3 {
@@ -726,6 +727,16 @@ body {
     .item-5 {
       margin-inline: 32px;
     }
+
+    .blog-writes {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .hidden {
+      display: none;
+    }
+
   }
 }
 
