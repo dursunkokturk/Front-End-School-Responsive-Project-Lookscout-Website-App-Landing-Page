@@ -852,15 +852,54 @@ body {
   }
 }
 
-/* @media (width > 768px) {
+/* Computer Start */
+@media (width > 1110px) {
   .container {
     margin: auto;
     border: 1px solid black;
-    width: 768px;
+    width: 1110px;
 
     .hero {
       .logo-company {
         margin-right: 581px;
+      }
+    }
+
+    .photo-and-supercharge {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 324px;
+      margin-left: 475px;
+    }
+
+    .photo {
+      width: 500px;
+      margin-inline: 0px;
+
+      img {
+        width: 280px;
+        height: 330px;
+        margin-inline: 0px;
+      }
+    }
+
+    .supercharge {
+      /* width: 520px; */
+      h1,h3 {
+        width: 424px;
+      }
+
+      h1 {
+        font-size: 52px;
+      }
+    }
+    
+    .logos {
+      padding-left: 530px;
+
+      img {
+        width: 112px;
+        margin-inline: 10px;
       }
     }
 
@@ -875,7 +914,7 @@ body {
         img {
           width: 448px;
           height: 560px;
-          margin-inline: 160px;
+          margin-inline: 80px;
         }
       }
 
@@ -947,6 +986,6 @@ body {
       }
     }
   }
-} */
+}
 
-/* Tablet End */
+/* Computer End */
