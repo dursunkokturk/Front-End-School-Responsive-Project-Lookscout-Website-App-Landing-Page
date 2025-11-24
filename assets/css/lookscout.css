@@ -946,7 +946,20 @@ body {
         }
       }
     }
+  }
 
+  .icons-titles-writes-icons {
+    display: flex;
+    flex-direction: row;
+
+    .icon-title-write-icon {
+      width: 576px;
+      padding-top: 132px;
+
+      .wall-photo-2 {
+        padding-top: 132px;
+      }
+    }
   }
 }
 
