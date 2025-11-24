@@ -395,8 +395,8 @@ body {
     margin-bottom: 32px;
 
     img {
-      width: 100%;
-      max-width: 320px;
+      display: block;
+      margin-inline: auto;
       margin-bottom: 12px;
     }
 
