@@ -722,6 +722,18 @@ body {
   }
 
   .grid-container-2 {
+    .wall-photo-1 {
+      img {
+        .active {
+          display: flex;
+        }
+
+        .not-active {
+          display: none;
+        }
+      }
+    }
+
     .item-2 {
       .title-and-write-3 {
         h4 {
@@ -934,12 +946,14 @@ body {
     display: flex;
     flex-direction: row-reverse;
 
-    .wall-photo-1 img:nth-child(1) {
-      display: none;
-    }
+    .wall-photo-1 {
+      img.active {
+        display: none;
+      }
 
-    .wall-photo-1 img:nth-child(2) {
-      display: block;
+      img.not-active {
+        display: block;
+      }
     }
 
     .item-2 {
