@@ -401,11 +401,12 @@ body {
   }
 
   .item-6 {
-    display: block;
+    /* display: block;
     margin-inline: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 32px; */
 
     img {
+      width: 90%;
       display: block;
       margin-inline: auto;
       margin-bottom: 12px;
@@ -415,12 +416,14 @@ body {
       font-size: 20px;
       font-weight: 600;
       line-height: 28px;
+      margin-inline: 16px;
       margin-bottom: 16px;
     }
 
     h4 {
       line-height: 24px;
       color: #5F6D7E;
+      margin-inline: 16px;
       margin-bottom: 25px;
     }
 
@@ -431,6 +434,8 @@ body {
       img {
         width: 40px;
         height: 40px;
+        margin-left: 16px;
+        margin-right: 10px;
       }
 
       .userinformations {
@@ -770,8 +775,11 @@ body {
   }
 
   .blog-writes {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
 
     .hidden {
       display: none;
