@@ -37,8 +37,11 @@ body {
     padding-bottom: 32px;
 
     img {
-      width: 100%;
-      max-width: 704px;
+      display: block;
+      margin-inline: 50px;
+      max-width: calc(100% - 100px);
+      /* width: 100%; */
+      /* max-width: 704px; */
       /* margin-left: 16px; */
     }
   }
@@ -665,11 +668,10 @@ body {
     background-color: #2663fd;
     padding-inline: 160px;
 
-    /* img {
-      width: 448px;
-      height: 560px;
+    img {
       margin-inline: 160px;
-    } */
+      max-width: calc(100% - 320px);
+    }
   }
 
   .supercharge {
