@@ -929,8 +929,52 @@ body {
   }
 
   .hero {
+    display: flex;
+    text-align: center;
+    padding-top: 23px;
+
+    a {
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+    }
+
     .logo-company {
-      margin-right: 581px;
+      display: block;
+      margin-right: auto;
+    }
+
+    .desktop-menu {
+      display: flex;
+      gap: 24px;
+      align-content: center;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+    }
+
+    li {
+      padding-left: 32px;
+
+      a {
+        display: flex;
+        align-content: center;
+      }
+    }
+
+
+    .btns {
+      display: flex;
+      gap: 12px;
+      margin-left: auto;
+      margin-right: 50px;
+    }
+
+    .burger-menu {
+      display: none;
     }
   }
 
