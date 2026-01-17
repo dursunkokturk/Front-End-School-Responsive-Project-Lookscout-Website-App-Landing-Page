@@ -11,7 +11,7 @@ body {
 /* Mobile Start */
 .container {
   margin: auto;
-  
+
   .hero {
     background-color: #2663fd;
     padding-bottom: 32px;
@@ -22,9 +22,12 @@ body {
     .logo-company {
       padding: 10px;
     }
-    .desktop-menu,.btns {
+
+    .desktop-menu,
+    .btns {
       display: none;
     }
+
     .burger-menu {
       padding: 20px;
     }
@@ -660,9 +663,11 @@ body {
     .desktop-menu {
       display: none;
     }
+
     .btns {
       display: none;
     }
+
     .burger-menu {
       display: flex;
     }
@@ -1061,6 +1066,19 @@ body {
       .wall-photo-2 {
         padding-top: 132px;
       }
+    }
+  }
+
+  .item-9 {
+    
+    .digital-vr {
+      margin: 0 auto;
+      width: 752px;
+    }
+
+    .form {
+      margin: 0 auto;
+      width: 80%;
     }
   }
 }
