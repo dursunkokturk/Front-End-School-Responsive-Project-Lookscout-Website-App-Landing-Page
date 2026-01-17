@@ -434,9 +434,9 @@ body {
           /* margin-left: 15px; */
         }
 
-        p {
-          /* margin-left: 15px; */
-        }
+        /* p {
+          margin-left: 15px;
+        } */
       }
 
       .date {
@@ -467,7 +467,12 @@ body {
   }
 
   .item-8 {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 64px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     img {
       margin-inline: 107px;
