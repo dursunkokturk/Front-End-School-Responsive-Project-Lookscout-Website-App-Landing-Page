@@ -24,6 +24,7 @@ body {
     }
 
   }
+
   .desktop-menu,
   .btns {
     display: none;
@@ -796,6 +797,9 @@ body {
     }
 
     .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       .input-and-button {
         display: flex;
@@ -816,9 +820,7 @@ body {
 
       .options {
         display: flex;
-        width: 700px;
-        margin-left: 0;
-        margin-inline: 80px;
+        justify-content: center;
 
         .option-1,
         .option-2,
@@ -1070,7 +1072,7 @@ body {
   }
 
   .item-9 {
-    
+
     .digital-vr {
       margin: 0 auto;
       width: 752px;
