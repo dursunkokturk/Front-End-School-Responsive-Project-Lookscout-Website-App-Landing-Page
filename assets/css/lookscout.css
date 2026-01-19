@@ -23,14 +23,14 @@ body {
       padding: 10px;
     }
 
-    .desktop-menu,
-    .btns {
-      display: none;
-    }
+  }
+  .desktop-menu,
+  .btns {
+    display: none;
+  }
 
-    .burger-menu {
-      padding: 20px;
-    }
+  .burger-menu {
+    padding: 20px;
   }
 
   .photo {
