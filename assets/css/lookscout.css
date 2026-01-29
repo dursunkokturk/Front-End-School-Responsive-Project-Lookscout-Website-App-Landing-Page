@@ -402,8 +402,11 @@ body {
     gap: 20px;
 
     img {
-      width: 90%;
-      margin-inline: 16px;
+      display: block;
+      width: 100%;
+      max-width: calc(100% - 32px);
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -792,7 +795,7 @@ body {
   .blog-writes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
 
     .hidden {
       display: none;
