@@ -747,6 +747,10 @@ body {
 
   .grid-container-2 {
     .wall-photo-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
       img {
         .active {
           display: flex;
