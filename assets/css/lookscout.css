@@ -1008,7 +1008,7 @@ body {
 
   .photo-and-supercharge {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .photo {
