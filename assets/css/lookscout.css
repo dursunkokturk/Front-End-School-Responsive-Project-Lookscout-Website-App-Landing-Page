@@ -40,7 +40,7 @@ body {
 
     img {
       display: block;
-      margin-inline: 50px;
+      margin: 0 auto;
       max-width: calc(100% - 100px);
     }
   }
