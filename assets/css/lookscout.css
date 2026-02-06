@@ -21,6 +21,7 @@ body {
 
     .logo-company {
       padding: 10px;
+      padding-right: 60px;
     }
 
   }
@@ -40,7 +41,7 @@ body {
 
     img {
       display: block;
-      margin: 0 auto;
+      margin-inline: 50px;
       max-width: calc(100% - 100px);
     }
   }
@@ -965,7 +966,7 @@ body {
       font-weight: 600;
       color: white;
       text-decoration: none;
-      padding-left: 30px;
+      /* padding-left: 30px; */
     }
 
     .logo-company {
@@ -981,6 +982,19 @@ body {
 
     .btns {
       display: flex;
+
+      a {
+        padding-right: 10px;
+      }
+
+      .login {
+        padding: 12px 18px;
+      }
+      .signup {
+        background-color: #437EF7;
+        padding: 12px 18px;
+        border-radius: 5px;
+      }
     }
 
     ul {
@@ -989,7 +1003,7 @@ body {
     }
 
     li {
-      padding-left: 32px;
+      /* padding-left: 32px; */
 
       a {
         display: flex;
