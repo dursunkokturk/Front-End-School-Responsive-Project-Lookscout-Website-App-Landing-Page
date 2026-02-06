@@ -41,8 +41,11 @@ body {
 
     img {
       display: block;
-      margin-inline: 50px;
-      max-width: calc(100% - 100px);
+      width: 100%;
+      max-width: 1110px;
+      margin-inline: auto;
+      padding-inline: 50px;
+      box-sizing: border-box;
     }
   }
 
@@ -407,7 +410,7 @@ body {
     gap: 20px;
 
   }
-  
+
   .blog-writes img {
     display: block;
     width: 100%;
@@ -809,7 +812,7 @@ body {
     gap: 20px;
 
   }
-  
+
   .hidden {
     display: none;
   }
@@ -990,6 +993,7 @@ body {
       .login {
         padding: 12px 18px;
       }
+
       .signup {
         background-color: #437EF7;
         padding: 12px 18px;
@@ -1025,19 +1029,33 @@ body {
   }
 
   .photo-and-supercharge {
-    display: flex;
-    flex-direction: row-reverse;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    /* gap: 30px; */
+    align-items: start;
   }
 
   .photo {
-    margin-inline: 0px;
+    /* margin-inline: 0px; */
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      margin-inline: 1px;
+      /* margin-inline: 1px; */
+      max-width: 100%;
+      height: auto;
     }
   }
 
   .supercharge {
+    grid-column: 1;
+    grid-row: 1;
 
     h1,
     h3 {
@@ -1050,7 +1068,9 @@ body {
   }
 
   .logos {
-    padding-right: 530px;
+    /* padding-right: 530px; */
+    grid-column: 1;
+    grid-row: 2;
 
     img {
       width: 112px;
