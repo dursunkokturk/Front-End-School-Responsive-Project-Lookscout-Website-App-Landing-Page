@@ -41,8 +41,7 @@ body {
 
     img {
       display: block;
-      width: 100%;
-      max-width: 1110px;
+      max-width: 100%;
       margin-inline: auto;
       padding-inline: 50px;
       box-sizing: border-box;
@@ -702,10 +701,11 @@ body {
     background-color: #2663fd;
     padding-inline: 160px;
 
-    img {
-      margin-inline: 160px;
-      max-width: calc(100% - 320px);
-    }
+  }
+  
+  .photo img {
+    margin-inline: 160px;
+    max-width: calc(100% - 320px);
   }
 
   .supercharge {
@@ -1044,13 +1044,14 @@ body {
     grid-row: 1 / span 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 
-    img {
-      /* margin-inline: 1px; */
-      max-width: 100%;
-      height: auto;
-    }
+  }
+  .photo img {
+    /* margin-inline: 1px; */
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .supercharge {
@@ -1072,10 +1073,11 @@ body {
     grid-column: 1;
     grid-row: 2;
 
-    img {
-      width: 112px;
-      /* margin: none; */
-    }
+  }
+  
+  .logos img {
+    width: 111px;
+    /* margin: none; */
   }
 
   .grid-container-1 {
