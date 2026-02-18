@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 
-.container .hero {
+.hero {
   background-color: #2663fd;
   padding-bottom: 32px;
   display: flex;
@@ -23,7 +23,7 @@ body {
 
 }
 
-.container .hero .logo-company {
+.logo-company {
   padding: 10px;
   padding-right: 60px;
 }
@@ -33,17 +33,17 @@ body {
   display: none;
 }
 
-.container .burger-menu {
+.burger-menu {
   padding: 20px;
 }
 
-.container .photo {
+.photo {
   background-color: #2663fd;
   padding-bottom: 32px;
 
 }
 
-.container .photo img {
+.photo img {
   display: block;
   width: 100%;
   max-width: 1110px;
@@ -52,17 +52,17 @@ body {
   box-sizing: border-box;
 }
 
-.container .supercharge {
+.supercharge {
   background-color: #2663fd;
   padding-bottom: 64px;
 }
 
-.container .supercharge h1,
-.container .supercharge h3 {
+.supercharge h1,
+.supercharge h3 {
   margin-inline: 16px;
 }
 
-.container .supercharge h1 {
+.supercharge h1 {
   font-weight: 600;
   line-height: 44px;
   color: white;
@@ -70,14 +70,14 @@ body {
   margin-bottom: 16px;
 }
 
-.container .supercharge h3 {
+.supercharge h3 {
   color: #B1CCFB;
   line-height: 26px;
   letter-spacing: -0.1px;
   padding-bottom: 32px;
 }
 
-.container .supercharge a {
+.supercharge a {
   background-color: #437EF7;
   padding: 12px 129px;
   margin-inline: 16px;
@@ -90,12 +90,12 @@ body {
   border-radius: 5px;
 }
 
-.container .logos {
+.logos {
   background-color: #2663fd;
   margin-bottom: 40px;
 }
 
-.container .logos h5 {
+.logos h5 {
   font-size: 14px;
   color: white;
   line-height: 20px;
@@ -103,39 +103,39 @@ body {
   margin-left: 20px;
 }
 
-.container .logos img {
+.logos img {
   width: 112px;
   margin: 23px 23px 23px 23px;
 }
 
-.container .message {
+.message {
   margin-bottom: 32px;
 }
 
-.container .message h2,
-.container .message h4 {
+.message h2,
+.message h4 {
   text-align: center;
   margin-inline: 16px;
 }
 
-.container .message h2 {
+.message h2 {
   margin-bottom: 12px;
 }
 
-.container .grid-container-1 {
+.grid-container-1 {
   display: grid;
 }
 
-.container .grid-container-1 .item-1 {
+.grid-container-1 .item-1 {
   margin-inline: 18px;
   margin-bottom: 40px;
 }
 
-.container .grid-container-1 .item-1 img {
+.grid-container-1 .item-1 img {
   margin-bottom: 16px;
 }
 
-.container .grid-container-1 .item-1 h3 {
+.grid-container-1 .item-1 h3 {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
@@ -143,7 +143,7 @@ body {
   margin-bottom: 8px;
 }
 
-.container .grid-container-1 .item-1 h4 {
+.grid-container-1 .item-1 h4 {
   font-size: 16px;
   color: #5F6D7E;
   line-height: 24px;
@@ -151,7 +151,7 @@ body {
   margin-bottom: 16px;
 }
 
-.container .grid-container-1 .item-1 a {
+.grid-container-1 .item-1 a {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -159,78 +159,76 @@ body {
   display: flex;
 }
 
-.container .grid-container-1 .item-1 .icons-right {
+.grid-container-1 .item-1 .icons-right {
   margin-left: 6px;
 }
 
-.container .redefining {
+.redefining {
   margin-inline: 16px;
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.container .redefining h2 {
+.redefining h2 {
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 12px;
 }
 
-.container .redefining h4 {
+.redefining h4 {
   color: #5F6D7E;
   line-height: 24px;
 }
 
-
-.container .wall-photo-1 {
+.wall-photo-1 {
   padding-bottom: 32px;
 
 }
 
-.container .wall-photo-1 img {
+.wall-photo-1 img {
   width: 100%;
   max-width: 704px;
 }
 
-.container .wall-photo-1 img:nth-child(1) {
+.wall-photo-1 img:nth-child(1) {
   display: block;
 }
 
-.container .wall-photo-1 img:nth-child(2) {
+.wall-photo-1 img:nth-child(2) {
   display: none;
 }
 
-.container .grid-container-2 .item-2 {
+.grid-container-2 .item-2 {
   display: flex;
   flex-direction: row;
   margin-bottom: 32px;
 }
 
-.container .grid-container-2 .item-2 .icon {
+.grid-container-2 .item-2 .icon {
   margin: 0 16px 0 16px;
 }
 
-.container .grid-container-2 .item-2 .iconimg {
+.grid-container-2 .item-2 .iconimg {
   width: 48px;
   height: 48px;
 }
 
-
-.container .grid-container-2 .title-and-write-3 {
+.grid-container-2 .title-and-write-3 {
   margin: 0 16px 0 0;
 }
 
-.container .grid-container-2 .title-and-write-3 h3 {
+.grid-container-2 .title-and-write-3 h3 {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.container .grid-container-2 .title-and-write-3 h4 {
+.grid-container-2 .title-and-write-3 h4 {
   color: #5F6D7E;
   margin-bottom: 8px;
 }
 
-.container .grid-container-2 .title-and-write-3 a {
+.grid-container-2 .title-and-write-3 a {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -238,37 +236,37 @@ body {
   display: flex;
 }
 
-.container .item-7 {
+.item-7 {
   display: flex;
   flex-direction: row;
   width: 343px;
   margin-bottom: 32px;
 }
 
-.container .item-7 .icon {
+.item-7 .icon {
   margin: 0 16px 0 16px;
 }
 
-.container .item-7 .icon img {
+.item-7 .icon img {
   width: 48px;
   height: 48px;
 }
 
-.container .item-7 .title-and-write-3 {
+.item-7 .title-and-write-3 {
   margin: 0 16px 0 0;
 }
 
-.container .item-7 .title-and-write-3 h3 {
+.item-7 .title-and-write-3 h3 {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.container .item-7 .title-and-write-3 h4 {
+.item-7 .title-and-write-3 h4 {
   color: #5F6D7E;
   margin-bottom: 8px;
 }
 
-.container .item-7 .title-and-write-3 a {
+.item-7 .title-and-write-3 a {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -276,7 +274,7 @@ body {
   display: flex;
 }
 
-.container .wall-photo-2 {
+.wall-photo-2 {
   background-color: #151B28;
   padding-top: 32px;
   padding-bottom: 24px;
@@ -286,40 +284,40 @@ body {
   align-items: center;
 }
 
-.container .wall-photo-2 img {
+.wall-photo-2 img {
   width: 100%;
   max-width: 704px;
 }
 
-.container .icon-title-write-icon .item-3 {
+.icon-title-write-icon .item-3 {
   display: flex;
   flex-direction: row;
   padding-bottom: 32px;
 }
 
-.container .icon-title-write-icon .item-3 .icon img {
+.icon-title-write-icon .item-3 .icon img {
   width: 48px;
   height: 48px;
   margin-top: 0px;
 }
 
-.container .icon-title-write-icon .item-3 .title-and-write-3 {
+.icon-title-write-icon .item-3 .title-and-write-3 {
   margin: 0 16px 0 0;
 }
 
-.container .icon-title-write-icon .item-3 .title-and-write-3 h3 {
+.icon-title-write-icon .item-3 .title-and-write-3 h3 {
   font-size: 20px;
   color: white;
   margin-left: 16px;
   margin-bottom: 8px;
 }
 
-.container .icon-title-write-icon .item-3 .title-and-write-3 h4 {
+.icon-title-write-icon .item-3 .title-and-write-3 h4 {
   color: #5F6D7E;
   margin-bottom: 8px;
 }
 
-.container .icon-title-write-icon .item-3 .title-and-write-3 a {
+.icon-title-write-icon .item-3 .title-and-write-3 a {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
@@ -328,68 +326,68 @@ body {
   display: flex;
 }
 
-.container .icon-title-write-icon .item-3 .title-and-write-3 a img {
+.icon-title-write-icon .item-3 .title-and-write-3 a img {
   margin-top: 0px;
 }
 
-.container .item-4 {
+.item-4 {
   margin-inline: 16px;
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.container .item-4 h2 {
+.item-4 h2 {
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 12px;
 }
 
-.container .item-4 h4 {
+.item-4 h4 {
   color: #5F6D7E;
   line-height: 24px;
 }
 
-.container .item-5 {
+.item-5 {
   margin-inline: 16px;
   margin-bottom: 64px;
 }
 
-.container .item-5 img {
+.item-5 img {
   margin: 0 0 16px;
 }
 
-.container .item-5 h3 {
+.item-5 h3 {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
   margin-bottom: 16px;
 }
 
-.container .item-5 .avatar-username-userinformations {
+.item-5 .avatar-username-userinformations {
   display: flex;
   flex-direction: row;
   margin-bottom: 17px;
 }
 
-.container .item-5 .avatar-username-userinformations .avatar {
+.item-5 .avatar-username-userinformations .avatar {
   background-color: white;
 }
 
-.container .item-5 .avatar-username-userinformations .avatar img {
+.item-5 .avatar-username-userinformations .avatar img {
   width: 40px;
   height: 40px;
   background-color: white;
 }
 
-.container .item-5 .avatar-username-userinformations .userinformations h5 {
+.item-5 .avatar-username-userinformations .userinformations h5 {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
   margin-left: 15px;
 }
 
-.container .item-5 .avatar-username-userinformations .userinformations p {
+.item-5 .avatar-username-userinformations .userinformations p {
   color: #5F6D7E;
   font-size: 14px;
   font-weight: 500;
@@ -398,14 +396,14 @@ body {
   justify-content: center;
 }
 
-.container .blog-writes {
+.blog-writes {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 
 }
 
-.container .blog-writes img {
+.blog-writes img {
   display: block;
   width: 100%;
   max-width: calc(100% - 32px);
@@ -413,7 +411,7 @@ body {
   margin-right: auto;
 }
 
-.container .item-6 h3 {
+.item-6 h3 {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
@@ -421,56 +419,56 @@ body {
   margin-bottom: 16px;
 }
 
-.container .item-6 h4 {
+.item-6 h4 {
   line-height: 24px;
   color: #5F6D7E;
   margin-inline: 16px;
   margin-bottom: 25px;
 }
 
-.container .avatar-and-userinformations {
+.avatar-and-userinformations {
   display: flex;
   flex-direction: row;
 
 }
 
-.container .avatar-and-userinformations img {
+.avatar-and-userinformations img {
   width: 40px;
   height: 40px;
   margin-left: 16px;
   margin-right: 10px;
 }
 
-.container .userinformations h5 {
+.userinformations h5 {
   font-size: 15px;
 }
 
-.container .date {
+.date {
   font-size: 14px;
   font-weight: 500;
   color: #5F6D7E;
   margin-left: 140px;
 }
 
-.container .item-7 {
+.item-7 {
   margin-inline: 16px;
   text-align: center;
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.container .item-7 h2 {
+.item-7 h2 {
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 12px;
 }
 
-.container .item-7 h4 {
+.item-7 h4 {
   color: #5F6D7E;
   line-height: 24px;
 }
 
-.container .item-8 {
+.item-8 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 64px;
@@ -479,12 +477,12 @@ body {
   text-align: center;
 }
 
-.container .item-8 img {
+.item-8 img {
   margin-inline: 107px;
   margin-bottom: 32px;
 }
 
-.container .item-9 .sector-information {
+.item-9 .sector-information {
   font-size: 14px;
   line-height: 20px;
   color: #437EF7;
@@ -492,7 +490,7 @@ body {
   margin-bottom: 8px;
 }
 
-.container .item-9 .digital-vr {
+.item-9 .digital-vr {
   text-align: center;
   font-size: 28px;
   font-weight: 600;
@@ -500,11 +498,11 @@ body {
   margin-bottom: 16px;
 }
 
-.container .item-9 .form {
+.item-9 .form {
   margin-bottom: 64px;
 }
 
-.container .item-9 .form .text-input {
+.item-9 .form .text-input {
   width: 100%;
   max-width: 320px;
   height: 46px;
@@ -513,7 +511,7 @@ body {
   padding-left: 16px;
 }
 
-.container .item-9 .form a {
+.item-9 .form a {
   font-size: 15px;
   text-decoration: none;
   color: white;
@@ -524,58 +522,58 @@ body {
   margin-bottom: 30px;
 }
 
-.container .item-9 .form .options {
+.item-9 .form .options {
   width: 298px;
   margin-top: 32px;
   margin-left: 20px;
 }
 
-.container .item-9 .form .options .option-1,
-.container .item-9 .form .options .option-3 {
+.item-9 .form .options .option-1,
+.item-9 .form .options .option-3 {
   display: flex;
 }
 
-.container .item-9 .form .options .option-3 img {
+.item-9 .form .options .option-3 img {
   margin-right: 12px;
 }
 
-.container .item-9 .form .options .option-3 h4 {
+.item-9 .form .options .option-3 h4 {
   width: 140px;
 }
 
-.container .item-9 .form .options .option-2 {
+.item-9 .form .options .option-2 {
   display: flex;
 }
 
-.container .item-9 .form .options .option-2 img {
+.item-9 .form .options .option-2 img {
   margin-right: 12px;
 }
 
-.container .item-9 .form .options .option-2 h4 {
+.item-9 .form .options .option-2 h4 {
   width: 100px;
 }
 
-.container .item-12 {
+.item-12 {
   padding-bottom: 32px;
 }
 
-.container .item-12 h4 {
+.item-12 h4 {
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 12px;
 }
 
-.container .item-12 strong {
+.item-12 strong {
   color: white;
 }
 
-.container .item-12 input {
+.item-12 input {
   background-color: #2C3444;
   margin-left: 16px;
   padding: 15px 16px 15px 16px;
 }
 
-.container .item-12 button {
+.item-12 button {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
@@ -584,83 +582,79 @@ body {
   padding: 12px 18px 12px 18px;
 }
 
-
-.container .footer {
+.footer {
   border-top: 1px solid #2E3545;
   background-color: #151B28;
   padding-top: 16px;
 }
 
-.container .footer h4 {
+.footer h4 {
   color: #A5ACBA;
   line-height: 24px;
   margin-left: 16px;
   margin-bottom: 18px;
 }
 
-.container .footer img {
+.footer img {
   width: 24px;
   height: 24px;
   margin-inline: 27px;
   margin-right: 45px;
 }
 
-.container .dark-background-2 {
+.dark-background-2 {
   background-color: #151B28;
   padding-bottom: 24px;
 }
 
-.container .dark-background-2 img {
+.dark-background-2 img {
   margin-top: 32px;
   margin-left: 16px;
   margin-bottom: 16px;
 }
 
-.container .dark-background-2 h4 {
+.dark-background-2 h4 {
   color: #A5ACBA;
   line-height: 24px;
   margin-inline: 16px;
   margin-bottom: 24px;
 }
 
-.container .dark-background-2 .resources-and-products {
+.dark-background-2 .resources-and-products {
   display: flex;
   flex-direction: row;
 }
 
-.container .dark-background-2 .resources-and-products .resources strong {
+.dark-background-2 .resources-and-products .resources strong {
   color: white;
 }
 
-.container .dark-background-2 .resources-and-products .resources a {
+.dark-background-2 .resources-and-products .resources a {
   text-decoration: none;
 }
 
-.container .dark-background-2 .resources-and-products .resources h4 {
+.dark-background-2 .resources-and-products .resources h4 {
   margin-bottom: 16px;
   color: #A5ACBA;
 }
 
-.container .dark-background-2 .resources-and-products .products strong {
+.dark-background-2 .resources-and-products .products strong {
   color: white;
 }
 
-.container .dark-background-2 .resources-and-products .products a {
+.dark-background-2 .resources-and-products .products a {
   text-decoration: none;
 }
 
-.container .dark-background-2 .resources-and-products .products h4 {
+.dark-background-2 .resources-and-products .products h4 {
   margin-bottom: 16px;
   color: #A5ACBA;
 }
 
-.container .dark-background-2 .resources-and-products .resources {
+.dark-background-2 .resources-and-products .resources {
   margin-left: 16px;
   margin-right: 30px;
 }
-
-
-
 
 /* Mobile End */
 
