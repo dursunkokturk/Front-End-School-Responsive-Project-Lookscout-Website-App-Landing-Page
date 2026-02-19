@@ -760,9 +760,9 @@ body {
     max-width: 704px;
   }
 
-  .icon-title-write-icon .item-3 .title-and-write-3 h4 {
+  /* .icon-title-write-icon .item-3 .title-and-write-3 h4 {
     width: 650px;
-  }
+  } */
 
   .item-4,
   .item-5 {
@@ -1046,8 +1046,9 @@ body {
     display: block;
   }
 
-  .grid-container-2 .item-2 .title-and-write-3 h3,
-  .grid-container-2 .item-2 .title-and-write-3 h4 {
+  .grid-container-2 .item-2 .title-and-write-3 h3
+  /* .grid-container-2 .item-2 .title-and-write-3 h4 */
+  {
     width: 532px;
   }
 
