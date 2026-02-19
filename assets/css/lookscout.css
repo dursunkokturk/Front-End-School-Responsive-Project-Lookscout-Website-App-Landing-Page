@@ -908,69 +908,63 @@ body {
     display: flex;
     text-align: center;
     padding-top: 23px;
+  }
 
-    a {
-      font-size: 15px;
-      font-weight: 600;
-      color: white;
-      text-decoration: none;
-      /* padding-left: 30px; */
-    }
+  .hero a {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
 
-    .logo-company {
-      display: block;
-      margin-right: auto;
-    }
+  .hero .logo-company {
+    display: block;
+    margin-right: auto;
+  }
 
-    .desktop-menu {
-      display: flex;
-      gap: 24px;
-      align-content: center;
-    }
+  .hero .desktop-menu {
+    display: flex;
+    gap: 24px;
+    align-content: center;
+  }
 
-    .btns {
-      display: flex;
+  .hero .btns {
+    display: flex;
+  }
 
-      a {
-        padding-right: 10px;
-      }
+  .hero .btns a {
+    padding-right: 10px;
+  }
 
-      .login {
-        padding: 12px 18px;
-      }
+  .hero .btns .login {
+    padding: 12px 18px;
+  }
 
-      .signup {
-        background-color: #437EF7;
-        padding: 12px 18px;
-        border-radius: 5px;
-      }
-    }
+  .hero .btns .signup {
+    background-color: #437EF7;
+    padding: 12px 18px;
+    border-radius: 5px;
+  }
 
-    ul {
-      list-style: none;
-      display: flex;
-    }
+  .hero ul {
+    list-style: none;
+    display: flex;
+  }
 
-    li {
-      /* padding-left: 32px; */
+  .hero li a {
+    display: flex;
+    align-content: center;
+  }
 
-      a {
-        display: flex;
-        align-content: center;
-      }
-    }
+  .hero .btns {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
 
-
-    .btns {
-      display: flex;
-      gap: 12px;
-      margin-left: auto;
-      margin-right: 50px;
-    }
-
-    .burger-menu {
-      display: none;
-    }
+  .hero .burger-menu {
+    display: none;
   }
 
   .photo-and-supercharge {
@@ -986,32 +980,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+  .photo img {
+    max-width: 100%;
+    height: auto;
   }
 
   .supercharge {
     grid-column: 1;
     grid-row: 1;
+  }
 
-    h1,
-    h3 {
-      width: 424px;
-    }
+  .supercharge h1,
+  .supercharge h3 {
+    width: 424px;
+  }
 
-    h1 {
-      font-size: 52px;
-    }
+  .supercharge h1 {
+    font-size: 52px;
   }
 
   .logos {
     grid-column: 1;
     grid-row: 2;
 
-    img {
+    .logos img {
       width: 112px;
     }
   }
@@ -1024,72 +1018,61 @@ body {
   .grid-container-2 {
     display: flex;
     flex-direction: row-reverse;
+  }
 
-    .wall-photo-1 {
-      img.active {
-        display: none;
-      }
+  .grid-container-2 .wall-photo-1 img.active {
+    display: none;
+  }
 
-      img.not-active {
-        display: block;
-      }
-    }
+  .grid-container-2 .wall-photo-1 img.not-active {
+    display: block;
+  }
 
-    .item-2 {
+  .grid-container-2 .item-2 .wall-photo-1 img:nth-child(1) {
+    display: none;
+  }
 
-      .wall-photo-1 img:nth-child(1) {
-        display: none;
-      }
+  .grid-container-2 .item-2 .wall-photo-1 img:nth-child(2) {
+    display: block;
+  }
 
-      .wall-photo-1 img:nth-child(2) {
-        display: block;
-      }
-
-      .title-and-write-3 {
-
-        h3,
-        h4 {
-          width: 532px;
-        }
-      }
-    }
+  .grid-container-2 .item-2 .title-and-write-3 h3,
+  .grid-container-2 .item-2 .title-and-write-3 h4 {
+    width: 532px;
   }
 
   .icons-titles-writes-icons {
     display: flex;
     flex-direction: row;
-
-    .icon-title-write-icon {
-      width: 576px;
-      padding-top: 132px;
-
-      .wall-photo-2 {
-        padding-top: 132px;
-      }
-    }
   }
 
-  .item-9 {
-
-    .digital-vr {
-      margin: 0 auto;
-      width: 752px;
-    }
-
-    .form {
-      margin: 0 auto;
-      width: 80%;
-    }
+  .icons-titles-writes-icons .icon-title-write-icon {
+    width: 576px;
+    padding-top: 132px;
   }
 
-  .container .blog-writes {
+  .icons-titles-writes-icons .icon-title-write-icon .wall-photo-2 {
+    padding-top: 132px;
+  }
+
+  .item-9 .digital-vr {
+    margin: 0 auto;
+    width: 752px;
+  }
+
+  .item-9 .form {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .blog-writes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
   }
 
-  .container .hidden {
+  .hidden {
     display: block;
   }
 
