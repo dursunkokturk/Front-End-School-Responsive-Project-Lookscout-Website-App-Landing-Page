@@ -239,7 +239,8 @@ body {
 .item-7 {
   /* display: flex; */
   /* flex-direction: row; */
-  width: 343px;
+  width: auto;
+  text-align: center;
   margin-bottom: 32px;
 }
 
