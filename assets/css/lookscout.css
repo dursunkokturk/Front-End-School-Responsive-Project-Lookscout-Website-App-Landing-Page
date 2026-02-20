@@ -542,13 +542,17 @@ body {
   display: flex;
 }
 
+.item-9 .form .options .option-1 img {
+  margin-right: 12px;
+}
+
 .item-9 .form .options .option-3 img {
   margin-right: 12px;
 }
 
-.item-9 .form .options .option-3 h4 {
+/* .item-9 .form .options .option-3 h4 {
   width: 140px;
-}
+} */
 
 .item-9 .form .options .option-2 {
   display: flex;
@@ -558,9 +562,9 @@ body {
   margin-right: 12px;
 }
 
-.item-9 .form .options .option-2 h4 {
+/* .item-9 .form .options .option-2 h4 {
   width: 100px;
-}
+} */
 
 .item-12 {
   padding-bottom: 32px;
