@@ -1002,7 +1002,7 @@ body {
   }
 
   .photo img {
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
   }
 
@@ -1023,10 +1023,11 @@ body {
   .logos {
     grid-column: 1;
     grid-row: 2;
+    padding: 45px 0px;
+  }
 
-    .logos img {
-      width: 112px;
-    }
+  .logos img {
+    width: 112px;
   }
 
   .grid-container-1 {
