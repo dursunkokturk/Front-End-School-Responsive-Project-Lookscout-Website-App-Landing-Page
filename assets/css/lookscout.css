@@ -691,12 +691,17 @@ body {
 
   .photo {
     background-color: #2663fd;
-    padding-inline: 160px;
+    padding-inline: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .photo img {
-    margin-inline: 160px;
-    max-width: calc(100% - 320px);
+    margin-inline: auto;
+    display: block;
+    width: 100%;
+    max-width: 500px;
   }
 
   .supercharge {
