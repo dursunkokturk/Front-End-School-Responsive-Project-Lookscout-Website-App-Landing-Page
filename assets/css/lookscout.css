@@ -636,6 +636,9 @@ body {
 .dark-background-2 .resources-and-products {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  padding-inline: 16px;
 }
 
 .dark-background-2 .resources-and-products .resources strong {
@@ -665,8 +668,8 @@ body {
 }
 
 .dark-background-2 .resources-and-products .resources {
-  margin-left: 16px;
-  margin-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Mobile End */
