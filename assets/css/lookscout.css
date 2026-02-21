@@ -237,8 +237,6 @@ body {
 }
 
 .item-7 {
-  /* display: flex; */
-  /* flex-direction: row; */
   width: auto;
   text-align: center;
   margin-bottom: 32px;
@@ -550,10 +548,6 @@ body {
   margin-right: 12px;
 }
 
-/* .item-9 .form .options .option-3 h4 {
-  width: 140px;
-} */
-
 .item-9 .form .options .option-2 {
   display: flex;
 }
@@ -561,10 +555,6 @@ body {
 .item-9 .form .options .option-2 img {
   margin-right: 12px;
 }
-
-/* .item-9 .form .options .option-2 h4 {
-  width: 100px;
-} */
 
 .item-12 {
   padding-bottom: 32px;
@@ -599,21 +589,39 @@ body {
   border-top: 1px solid #2E3545;
   background-color: #151B28;
   padding-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+  padding-bottom: 16px;
 }
 
 .footer h4 {
   color: #A5ACBA;
   line-height: 24px;
-  margin-left: 16px;
-  margin-bottom: 18px;
+  margin: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
-.footer img {
+.footer .social-media-logos img {
   width: 24px;
   height: 24px;
-  margin-inline: 27px;
-  margin-right: 45px;
+  margin-top: 0;
+  margin-right: 50px;
+  margin-left: 0;
 }
+
+.item-13.footer img:first-of-type {
+  margin-left: 0;
+}
+
+.item-13.footer img:last-of-type {
+  margin-right: 0;
+}
+
 
 .dark-background-2 {
   background-color: #151B28;
@@ -707,10 +715,6 @@ body {
     max-width: 500px;
   }
 
-  /* .supercharge {
-    padding-bottom: 40px;
-  } */
-
   .supercharge h1,
   .supercharge h3 {
     width: 672px;
@@ -771,10 +775,6 @@ body {
     width: 100%;
     max-width: 704px;
   }
-
-  /* .icon-title-write-icon .item-3 .title-and-write-3 h4 {
-    width: 650px;
-  } */
 
   .item-4,
   .item-5 {
@@ -921,6 +921,11 @@ body {
     grid-row: 2;
     width: 50px;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* Computer Start */
@@ -1063,9 +1068,7 @@ body {
     display: block;
   }
 
-  .grid-container-2 .item-2 .title-and-write-3 h3
-  /* .grid-container-2 .item-2 .title-and-write-3 h4 */
-  {
+  .grid-container-2 .item-2 .title-and-write-3 h3 {
     width: 532px;
   }
 
@@ -1107,13 +1110,18 @@ body {
 
   .blog-writes img {
     display: flex;
-    /* width: 100%; */
     max-width: calc(100% - 32px);
     margin-left: auto;
     margin-right: auto;
   }
+
   .blog-writes .date {
-    margin-left: auto;   /* her sütun genişliğine göre otomatik ayarlanır */
+    margin-left: auto;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
   }
 }
 
