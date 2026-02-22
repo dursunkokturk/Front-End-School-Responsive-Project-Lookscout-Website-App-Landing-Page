@@ -906,14 +906,14 @@ body {
 
   .grid-container-3 .resources-and-products {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
   }
 
   .grid-container-3 .resources-and-products .resources {
     grid-column: 1;
     grid-row: 2;
-    width: 50px;
+    width: 0px;
   }
 
   .grid-container-3 .resources-and-products .products {
