@@ -110,7 +110,7 @@ Font: Inter
 A fully responsive corporate landing page designed for the Lookscout brand, built with pure HTML and CSS. Covers all essential sections including navigation, feature cards, blog posts, customer testimonial, and footer. <br>
 
 # Live Preview
-Live preview after the project is deployed.
+[Live preview after the project is deployed.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
 # Features
 Responsive Navigation — Hamburger menu on mobile/tablet, full menu bar on desktop  <br>
@@ -131,10 +131,10 @@ Tablet > 767px2-column grid, third blog card hidden <br>
 Desktop > 1109px3-column grid, full navbar, conditional image swap <br>
 
 # Technologies
-Technology Description
-HTML5Semantic page structure
-CSS3Grid, Flexbox, @media queries
-Google Fonts
+Technology Description <br>
+HTML5Semantic page structure <br>
+CSS3Grid, Flexbox, @media queries <br>
+Google Fonts <br>
 Inter typeface
 
 # Project Structure
