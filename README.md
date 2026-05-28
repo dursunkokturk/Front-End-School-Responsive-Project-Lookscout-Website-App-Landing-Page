@@ -104,3 +104,105 @@ Renk Paleti:
 
 
 Font: Inter
+
+# EN
+# Lookscout — Web App Landing Page
+A fully responsive corporate landing page designed for the Lookscout brand, built with pure HTML and CSS. Covers all essential sections including navigation, feature cards, blog posts, customer testimonial, and footer. <br>
+
+# Live Preview
+Live preview after the project is deployed.
+
+# Features
+Responsive Navigation — Hamburger menu on mobile/tablet, full menu bar on desktop  <br>
+Hero Section — CTA and descriptive text with supporting brand logos <br>
+6 Feature Cards — Business organization, analytics, integrations and more, each with icon, title, and link <br>
+Conditional Image — Different keyboard visuals for desktop vs. mobile/tablet (via CSS active / not-active classes) <br>
+Dark Sections — Features and footer areas with #151B28 background <br>
+Blog Cards — 1-column on mobile, 2 on tablet, 3 on desktop grid; third card hidden on mobile
+Customer Testimonial — Quote section with avatar, name, and title <br>
+Email Subscription Form — With security, support, and agreement confirmation icons <br>
+Footer — Resources and Products links, email input, and social media icons <br>
+Pure HTML & CSS — No JavaScript or external libraries used <br>
+
+# Responsive Layouts
+Screen Width Key Changes <br>
+Mobile (default)Single column, hamburger menu <br>
+Tablet > 767px2-column grid, third blog card hidden <br>
+Desktop > 1109px3-column grid, full navbar, conditional image swap <br>
+
+# Technologies
+Technology Description
+HTML5Semantic page structure
+CSS3Grid, Flexbox, @media queries
+Google Fonts
+Inter typeface
+
+# Project Structure
+lookscout/ <br>
+├── index.html <br>
+└── assets/ <br>
+    ├── css/ <br>
+    │   └── lookscout.css <br>
+    └── img/ <br>
+        ├── avatars/ <br>
+        │   ├── avatar.png <br>
+        │   ├── avatar-man.png <br>
+        │   └── avatar-woman.png <br>
+        ├── icons/ <br>
+        │   ├── icon-organization.png <br>
+        │   ├── icon-process.png <br>
+        │   ├── icon-analize.png <br>
+        │   ├── icon-connection.png <br>
+        │   ├── icon-integration.png <br>
+        │   ├── icon-workflow.png <br>
+        │   ├── icon-explere.png <br>
+        │   ├── icon-bulb.png <br>
+        │   ├── icon-ship.png <br>
+        │   ├── icon-check.png <br>
+        │   └── icon-right.png <br>
+        ├── logos/ <br>
+        │   ├── logo-company.png <br>
+        │   ├── logo-company-dark.png <br>
+        │   ├── logo-gitlab.png <br>
+        │   ├── logo-slack.png <br>
+        │   ├── logo-slack-black.png <br>
+        │   ├── logo-netflix.png <br>
+        │   ├── logo-paypal.png <br>
+        │   ├── logo-paypal-blue.png <br>
+        │   ├── logo-verge.png <br>
+        │   ├── logo-google.png <br>
+        │   ├── logo-google-letter.png <br>
+        │   ├── logo-pinterest.png <br>
+        │   ├── logo-mailchimp.png <br>
+        │   ├── logo-facebook.png <br>
+        │   ├── logo-apple.png <br>
+        │   └── logo-instagram.png <br>
+        ├── wall.png <br>
+        ├── wall-computer.png <br>
+        ├── photo-grass.png <br>
+        ├── photo-radiator.png <br>
+        ├── photo-desk-chair.png <br>
+        ├── burger-menu.png <br>
+        └── chevron-down.png <br>
+
+# Installation
+The project requires no dependencies. After cloning, you can open it directly in the browser.
+bash# Clone the repo
+git clone https://github.com/username/lookscout-landing.git
+
+## Navigate to the project folder
+cd lookscout-landing
+
+## Open index.html in the browser
+open index.html
+
+# Design Details
+Color Palette: <br>
+
+#2663FD — Primary blue (navbar, hero background) <br>
+#437EF7 — Light blue (buttons, links) <br>
+#151B28 — Dark navy (dark sections, footer) <br>
+#5F6D7E — Gray (body text) <br>
+#A5ACBA — Light gray (text on dark backgrounds) <br>
+
+Font: Inter
