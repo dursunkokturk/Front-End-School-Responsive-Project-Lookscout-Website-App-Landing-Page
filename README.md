@@ -9,29 +9,32 @@ Lookscout markası için tasarlanmış, saf HTML ve CSS kullanılarak geliştiri
 
 ## Özellikler
 
-Duyarlı Navigasyon — Mobil/tablette hamburger menü, masaüstünde tam menü çubuğu <br>
-Hero Bölümü — Destekçi marka logolarıyla birlikte CTA ve açıklayıcı metin <br>
-6 Özellik Kartı — İkon, başlık ve bağlantıyla iş organizasyonu, analitik, entegrasyon gibi başlıklar <br>
-Koşullu Görsel — Masaüstünde farklı, mobil/tablette farklı klavye görseli (CSS active / not-active sınıfları ile) <br>
-Karanlık Bölümler — #151B28 arka planlı özellikler ve footer alanları <br>
-Blog Kartları — Mobilde 1, tablette 2, masaüstünde 3 sütunlu ızgara; üçüncü kart mobilden gizlenir <br>
-Müşteri Yorumu — Avatar, isim ve unvanla birlikte alıntı bölümü <br>
-E-posta Abonelik Formu — Güvenlik, destek ve anlaşma onay ikonlarıyla birlikte <br>
-Footer — Kaynaklar ve Ürünler bağlantıları, e-posta girişi ve sosyal medya ikonları <br>
-Saf HTML & CSS — JavaScript veya harici kütüphane kullanılmaz <br>
+- Duyarlı Navigasyon — Mobil/tablette hamburger menü, masaüstünde tam menü çubuğu <br>
+- Hero Bölümü — Destekçi marka logolarıyla birlikte CTA ve açıklayıcı metin <br>
+- 6 Özellik Kartı — İkon, başlık ve bağlantıyla iş organizasyonu, analitik, entegrasyon gibi başlıklar <br>
+- Koşullu Görsel — Masaüstünde farklı, mobil/tablette farklı klavye görseli (CSS active / not-active sınıfları ile) <br>
+- Karanlık Bölümler — #151B28 arka planlı özellikler ve footer alanları <br>
+- Blog Kartları — Mobilde 1, tablette 2, masaüstünde 3 sütunlu ızgara; üçüncü kart mobilden gizlenir <br>
+- Müşteri Yorumu — Avatar, isim ve unvanla birlikte alıntı bölümü <br>
+- E-posta Abonelik Formu — Güvenlik, destek ve anlaşma onay ikonlarıyla birlikte <br>
+- Footer — Kaynaklar ve Ürünler bağlantıları, e-posta girişi ve sosyal medya ikonları <br>
+- Saf HTML & CSS — JavaScript veya harici kütüphane kullanılmaz <br>
 
 
 ## Duyarlı Düzenler
-Ekran Genişlik Öne Çıkan Değişiklikler <br>
-Mobil varsayılan Tek sütun, hamburger menü <br>
-Tablet> 767px2 sütunlu grid, gizli üçüncü blog kartı <br>
-Masaüstü> 1109px3 sütunlu grid, tam navbar, koşullu görsel değişimi <br>
+
+| Ekran    | Genişlik                   | Öne Çıkan Değişiklikler             |
+| -------- |----------------------------| ------------------------------------|
+| Mobil    | 375px Varsayılan Tek Sütun | Hamburger menü                      |
+| Tablet   | > 767px sütunlu grid       | gizli üçüncü blog kartı             |
+| Masaüstü | > 1109px sütunlu grid      | tam navbar, koşullu görsel değişimi |
 
 ## Teknolojiler
-Teknoloji Açıklama <br>
-HTML5Semantik sayfa yapısı <br>
-CSS3Grid, Flexbox, @media sorguları <br>
-Google FontsInter yazı ailesi <br>
+| Teknoloji    | Açıklama                        |
+| ------------ |---------------------------------|
+| HTML5        | Semantik sayfa yapısı           |
+| CSS3         | Grid, Flexbox, @media sorguları |
+| Google Fonts | Inter yazı ailesi               |
 
 ## Proje Yapısı
 lookscout/ <br>
@@ -94,16 +97,16 @@ open index.html
 
 # Tasarım Detayları
 
-Renk Paleti:
+- Renk Paleti:
 
-#2663FD — Ana mavi (navbar, hero arka planı) <br>
-#437EF7 — Açık mavi (butonlar, bağlantılar) <br>
-#151B28 — Koyu lacivert (karanlık bölümler, footer) <br>
-#5F6D7E — Gri (gövde metni) <br>
-#A5ACBA — Açık gri (karanlık arka plan metinleri) <br> <br>
+    - #2663FD — Ana mavi (navbar, hero arka planı) <br>
+    - #437EF7 — Açık mavi (butonlar, bağlantılar) <br>
+    - #151B28 — Koyu lacivert (karanlık bölümler, footer) <br>
+    - #5F6D7E — Gri (gövde metni) <br>
+- #A5ACBA — Açık gri (karanlık arka plan metinleri) <br> <br>
 
 
-Font: Inter
+- Font: Inter
 
 # EN
 # Lookscout — Web App Landing Page
@@ -113,29 +116,33 @@ A fully responsive corporate landing page designed for the Lookscout brand, buil
 [Live preview after the project is deployed.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
 # Features
-Responsive Navigation — Hamburger menu on mobile/tablet, full menu bar on desktop  <br>
-Hero Section — CTA and descriptive text with supporting brand logos <br>
-6 Feature Cards — Business organization, analytics, integrations and more, each with icon, title, and link <br>
-Conditional Image — Different keyboard visuals for desktop vs. mobile/tablet (via CSS active / not-active classes) <br>
-Dark Sections — Features and footer areas with #151B28 background <br>
-Blog Cards — 1-column on mobile, 2 on tablet, 3 on desktop grid; third card hidden on mobile
-Customer Testimonial — Quote section with avatar, name, and title <br>
-Email Subscription Form — With security, support, and agreement confirmation icons <br>
-Footer — Resources and Products links, email input, and social media icons <br>
-Pure HTML & CSS — No JavaScript or external libraries used <br>
+- Responsive Navigation — Hamburger menu on mobile/tablet, full menu bar on desktop  <br>
+- Hero Section — CTA and descriptive text with supporting brand logos <br>
+- 6 Feature Cards — Business organization, analytics, integrations and more, each with icon, title, and link <br>
+- Conditional Image — Different keyboard visuals for desktop vs. mobile/tablet (via CSS active / not-active classes) <br>
+- Dark Sections — Features and footer areas with #151B28 background <br>
+- Blog Cards — 1-column on mobile, 2 on tablet, 3 on desktop grid; third card hidden on mobile
+- Customer Testimonial — Quote section with avatar, name, and title <br>
+- Email Subscription Form — With security, support, and agreement confirmation icons <br>
+- Footer — Resources and Products links, email input, and social media icons <br>
+- Pure HTML & CSS — No JavaScript or external libraries used <br>
 
 # Responsive Layouts
-Screen Width Key Changes <br>
-Mobile (default)Single column, hamburger menu <br>
-Tablet > 767px2-column grid, third blog card hidden <br>
-Desktop > 1109px3-column grid, full navbar, conditional image swap <br>
+
+| Screen   | Width                      | Layout                              |
+| -------- |----------------------------| ------------------------------------|
+| Mobile   | 375px Single column        | Hamburger menu                      |
+| Tablet   | > 767px Two-column grid    | Third blog card hidden              |
+| Desktop  | > 1109px Three-column grid | full navbar, conditional image swap |
 
 # Technologies
-Technology Description <br>
-HTML5Semantic page structure <br>
-CSS3Grid, Flexbox, @media queries <br>
-Google Fonts <br>
-Inter typeface
+
+| Technology   | Description                   |
+| ------------ |-------------------------------|
+| HTML5        | Semantic page structure       |
+| CSS3         | Grid, Flexbox, @media queries |
+| Google Fonts | Inter font family             |
+
 
 # Project Structure
 lookscout/ <br>
@@ -197,12 +204,12 @@ cd lookscout-landing
 open index.html
 
 # Design Details
-Color Palette: <br>
+- Color Palette: <br>
 
-#2663FD — Primary blue (navbar, hero background) <br>
-#437EF7 — Light blue (buttons, links) <br>
-#151B28 — Dark navy (dark sections, footer) <br>
-#5F6D7E — Gray (body text) <br>
-#A5ACBA — Light gray (text on dark backgrounds) <br>
+    - #2663FD — Primary blue (navbar, hero background) <br>
+    - #437EF7 — Light blue (buttons, links) <br>
+    - #151B28 — Dark navy (dark sections, footer) <br>
+    - #5F6D7E — Gray (body text) <br>
+    - #A5ACBA — Light gray (text on dark backgrounds) <br>
 
 Font: Inter
