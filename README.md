@@ -6,6 +6,7 @@ Lookscout markası için tasarlanmış, saf HTML ve CSS kullanılarak geliştiri
 
 [Projeyi deploy edildikten sonra canlı önizleme.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
+![Proje Görseli](assets/img/css-project-website-landing-page-design.png)
 
 ## Özellikler
 
