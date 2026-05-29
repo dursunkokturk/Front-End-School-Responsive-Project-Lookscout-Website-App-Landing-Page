@@ -23,11 +23,11 @@ Lookscout markası için tasarlanmış, saf HTML ve CSS kullanılarak geliştiri
 
 ## Duyarlı Düzenler
 
-| Ekran    | Genişlik                   | Öne Çıkan Değişiklikler             |
-| -------- |----------------------------| ------------------------------------|
-| Mobil    | 375px Varsayılan Tek Sütun | Hamburger menü                      |
-| Tablet   | > 767px sütunlu grid       | gizli üçüncü blog kartı             |
-| Masaüstü | > 1109px sütunlu grid      | tam navbar, koşullu görsel değişimi |
+| Ekran    | Genişlik         | Öne Çıkan Değişiklikler                            |
+| -------- |------------------| ---------------------------------------------------|
+| Mobil    | 375px Varsayılan |  Tek Sütun, Hamburger menü                         |
+| Tablet   | > 767px          |  Sütunlu grid, Gizli üçüncü blog kartı             |
+| Masaüstü | > 1109px         |  Sütunlu grid, tam navbar, koşullu görsel değişimi |
 
 ## Teknolojiler
 | Teknoloji    | Açıklama                        |
@@ -129,11 +129,11 @@ A fully responsive corporate landing page designed for the Lookscout brand, buil
 
 # Responsive Layouts
 
-| Screen   | Width                      | Layout                              |
-| -------- |----------------------------| ------------------------------------|
-| Mobile   | 375px Single column        | Hamburger menu                      |
-| Tablet   | > 767px Two-column grid    | Third blog card hidden              |
-| Desktop  | > 1109px Three-column grid | full navbar, conditional image swap |
+| Screen   | Width         | Layout                                                 |
+| -------- |---------------| -------------------------------------------------------|
+| Mobile   | 375px Default | Single column, Hamburger menu                          |
+| Tablet   | > 767px       |  Two-column grid, Third blog card hidden               |
+| Desktop  | > 1109px      | Three-column grid, full navbar, conditional image swap |
 
 # Technologies
 
