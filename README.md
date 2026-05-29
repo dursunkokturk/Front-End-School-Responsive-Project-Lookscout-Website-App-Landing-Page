@@ -212,4 +212,4 @@ open index.html
     - #5F6D7E — Gray (body text) <br>
     - #A5ACBA — Light gray (text on dark backgrounds) <br>
 
-Font: Inter
+- Font: Inter
