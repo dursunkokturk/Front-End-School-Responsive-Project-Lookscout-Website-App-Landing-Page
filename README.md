@@ -195,8 +195,8 @@ lookscout/ <br>
         └── chevron-down.png <br>
 
 ## Installation
-The project requires no dependencies. After cloning, you can open it directly in the browser.
-bash# Clone the repo
+The project requires no dependencies. After cloning, you can open it directly in the browser. <br>
+bash# Clone the repo <br>
 git clone https://github.com/dursunkokturk/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page.git
 
 ## Navigate to the project folder
