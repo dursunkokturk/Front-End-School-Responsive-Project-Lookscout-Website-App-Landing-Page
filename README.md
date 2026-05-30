@@ -194,18 +194,19 @@ lookscout/ <br>
         ├── burger-menu.png <br>
         └── chevron-down.png <br>
 
-# Installation
+## Installation
 The project requires no dependencies. After cloning, you can open it directly in the browser.
 bash# Clone the repo
-git clone https://github.com/username/lookscout-landing.git
+git clone https://github.com/dursunkokturk/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page.git
 
 ## Navigate to the project folder
-cd lookscout-landing
+cd Front-End-School-Responsive-Project-Typemaster-Pre-Launch-Landing-Page
 
 ## Open index.html in the browser
-open index.html
+Open it by double-clicking inside the project folder, or <br>
+open the project in VSCode, right-click on the index.html file, and select "Open With Live Server" to launch it in the browser.
 
-# Design Details
+## Design Details
 - Color Palette: <br>
 
     - #2663FD — Primary blue (navbar, hero background) <br>
