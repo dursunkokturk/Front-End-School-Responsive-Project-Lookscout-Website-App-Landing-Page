@@ -115,6 +115,8 @@ A fully responsive corporate landing page designed for the Lookscout brand, buil
 ## Live Preview
 [Live preview after the project is deployed.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
+![Proje Görseli](assets/img/css-project-website-landing-page-design.png)
+
 # Features
 - Responsive Navigation — Hamburger menu on mobile/tablet, full menu bar on desktop  <br>
 - Hero Section — CTA and descriptive text with supporting brand logos <br>
