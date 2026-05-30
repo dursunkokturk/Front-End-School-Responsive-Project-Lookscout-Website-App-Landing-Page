@@ -4,7 +4,7 @@ Lookscout markası için tasarlanmış, saf HTML ve CSS kullanılarak geliştiri
 
 ## Canlı Önizleme
 
-[Projeyi deploy edildikten sonra canlı önizleme.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
+[Proje önizleme.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
 ![Proje Görseli](assets/img/css-project-website-landing-page-design.png)
 
@@ -87,25 +87,24 @@ lookscout/ <br>
 
 ## Kurulum
 Proje herhangi bir bağımlılık gerektirmez. Klonladıktan sonra doğrudan tarayıcıda açabilirsiniz. <br>
-bash# Repoyu klonlayın
-git clone https://github.com/kullanici-adi/lookscout-landing.git
+bash# Repoyu klonlayın <br>
+git clone https://github.com/dursunkokturk/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page.git
 
 ### Proje klasörüne girin
-cd lookscout-landing
+cd Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page
 
 ### index.html dosyasını tarayıcıda açın
-open index.html
+Proje klasörü içinde çift tıklayarak yada <br>
+Projeyi VSCode içinde açıp index.html dosyasının üzerinde sağ tıkladıktan sonra "Open With Live Server" tıklayarak projeyi browser'da açıyoruz.
 
-# Tasarım Detayları
+## Tasarım Detayları
 
 - Renk Paleti:
-
     - #2663FD — Ana mavi (navbar, hero arka planı) <br>
     - #437EF7 — Açık mavi (butonlar, bağlantılar) <br>
     - #151B28 — Koyu lacivert (karanlık bölümler, footer) <br>
     - #5F6D7E — Gri (gövde metni) <br>
 - #A5ACBA — Açık gri (karanlık arka plan metinleri) <br> <br>
-
 
 - Font: Inter
 
@@ -113,7 +112,7 @@ open index.html
 # Lookscout — Web App Landing Page
 A fully responsive corporate landing page designed for the Lookscout brand, built with pure HTML and CSS. Covers all essential sections including navigation, feature cards, blog posts, customer testimonial, and footer. <br>
 
-# Live Preview
+## Live Preview
 [Live preview after the project is deployed.](https://dursunkokturk.github.io/Front-End-School-Responsive-Project-Lookscout-Website-App-Landing-Page/)
 
 # Features
